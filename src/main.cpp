@@ -56,7 +56,7 @@ void loop() {
     Serial.println("Activadoo");
     digitalWrite(rel1,HIGH);
     digitalWrite(rel2,LOW);
-    delay(6000);
+    delay(2000);
     digitalWrite(rel1,LOW);
     digitalWrite(rel2,HIGH);
     
